@@ -124,7 +124,7 @@ main {
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 400;
-  transition: all 0.2s;
+  transition: all 0.0s;
   background-color: white;
   backdrop-filter: blur(10px);
   border-radius: 9px;
