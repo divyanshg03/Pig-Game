@@ -1,5 +1,7 @@
 'use strict';
 
+const player0 = document.querySelector('.player--0');
+const player1 = document.querySelector('.player--1');
 const score0 = document.getElementById('score--0');
 const score1 = document.getElementById('score--1');
 const current0 = document.getElementById('current--0');
@@ -38,5 +40,8 @@ const dicenum = Math.trunc(Math.random() * 6) + 1;
     document.getElementById('current--' + activeplayer).textContent = 0;
     currentscore = 0;
     activeplayer = activeplayer === 0 ? 1 : 0;
+    player0.classList.toggle('player--active');
+    player1.classList.toggle('player--active');
   }
 });
+
