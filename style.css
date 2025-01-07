@@ -109,7 +109,7 @@ main {
   color: #fff;
   width: 45%;
   text-align: center;
-  transition: all 0.75s;
+  transition: all 1s;
 }
 .btn {
   position:relative;
@@ -124,7 +124,7 @@ main {
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 400;
-  transition: all 0.0s;
+  transition: all 5s;
   background-color: white;
   backdrop-filter: blur(10px);
   border-radius: 9px;
@@ -154,7 +154,7 @@ main {
 
 }
 .player--winner {
-  background-color: #2f2f2f;
+  background-color: #310021;
 }
 
 .player--winner .name {
@@ -235,7 +235,7 @@ main {
     width: 65%;
     padding: 2rem;
     text-align: center;
-    transition: all 0.75s;
+    transition: all 1s;
   }
   .btn {
     left:25%;
